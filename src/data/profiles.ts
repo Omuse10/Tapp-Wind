@@ -1,4 +1,4 @@
-import jamesPortrait from "@/assets/james-profile.jpg.asset.json";
+import profilePortrait from "@/assets/james-profile.webp";
 
 export type Profile = {
   id: string;
@@ -31,7 +31,7 @@ export const profiles: Profile[] = [
     last_name: "",
     job_title: "Owner Manager",
     company: "Windsong Travel",
-    profile_photo: jamesPortrait.url,
+    profile_photo: profilePortrait,
     tagline: "Creating journeys worth remembering.",
     website: "https://www.windsongtravel.com.au/",
     biography:

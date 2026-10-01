@@ -1,9 +1,9 @@
-import windsongLogo from "@/assets/windsong-logo.jpg.asset.json";
+import windsongMark from "@/assets/windsong-logo.webp";
 
 export function WindsongMark({ className = "" }: { className?: string }) {
   return (
     <img
-      src={windsongLogo.url}
+      src={windsongMark}
       alt="Windsong Travel"
       width={432}
       height={120}
